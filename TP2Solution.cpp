@@ -86,18 +86,3 @@ int TP2Solution::atIndexLien(uint16_t nombre)
 	}
 	return -1;
 }
-
-int TP2Solution::atIndexLienDestination(uint16_t nombre)
-{
-	for (int i = 0; i < m_lien.size(); i++)
-	{
-		for (int j = 0; j < m_lien[i].destinations.size(); j++)
-		{
-			if (nombre == m_lien[i].destinations[j])
-			{
-				return i;
-			}
-		}
-	}
-	return -1;
-}

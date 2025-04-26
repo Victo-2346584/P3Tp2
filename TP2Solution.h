@@ -17,12 +17,6 @@ private:
 	/// </summary>
 	/// <returns> l'index d'ou ce trouve le nombre</returns>
 	int atIndexLien(uint16_t nombre);
-	/// <summary>
-	/// Trouver le premier index dans lequel le nombre est dans les destinations
-	/// </summary>
-	/// <param name="nombre">nombre non null</param>
-	/// <returns></returns>
-	int atIndexLienDestination(uint16_t nombre);
 public:
 	/// <summary>
 	/// Trouver la solution du labyrinthe
